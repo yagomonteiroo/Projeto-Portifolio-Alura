@@ -1,0 +1,19 @@
+.menu__item{
+}
+
+.menu__item:first-letter{
+  text-transform: uppercase;
+}
+
+
+.menu__link--destaque{
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.menu__link--destaque{
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+
