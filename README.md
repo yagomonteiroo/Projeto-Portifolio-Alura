@@ -1,7 +1,4 @@
-# Projeto-Portifolio-Alura
-Challenge Portifólio do programa ONE (Oracle Next Education) + Alura em HTML, CSS e JS.
-
-<h1 align="center"> Projeto Portifólio </h1>
+<h1 align="center">💻 Projeto Portifólio 💻</h1> 
 
 Projeto de estudo desenvolvido como resposta ao Alura Challenge, desafio proposto no curso de desenvolvimento web do programa ONE (Oracle Next Education).  Durante a realização do projeto foram disponibilizados um protótipo no figma e um modelo kanban no trello para utilizar como ferramenta de gerenciamento do desenvolvimento do projeto.
 
