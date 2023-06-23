@@ -1,0 +1,7 @@
+.sobre__titulo{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.sobre__titulo::first-letter{
+  text-transform: uppercase;
+}

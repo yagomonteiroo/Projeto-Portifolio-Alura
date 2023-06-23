@@ -1,0 +1,8 @@
+.sobre{
+  background: var(--azul-claro);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top:4rem ;
+  padding-bottom:4rem ;
+}
