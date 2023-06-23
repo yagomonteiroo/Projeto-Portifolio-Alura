@@ -10,13 +10,15 @@ h1, h2, h3, h4, h5, h6, p, span, a{
 }
 
 .container{
-  padding: 0 9.5rem;
+  padding-left:9.5rem ;
+  padding-right:9.5rem;
   width: 100vw;
 }
 
 /* Grandes telas */
 @media screen and (min-width: 1700px){
   .container{
-    padding: 0 13vw;
+    padding-left:13vw;
+    padding-right:13vw;
   }
 }
