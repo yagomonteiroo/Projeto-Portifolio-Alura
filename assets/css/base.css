@@ -1,8 +1,13 @@
 :root{
   --preto: #464646;
+  --cinza: #f7f7f7;
   --azul-claro: #EAF2FD;
   --azul-escuro:#2A7AE4;
   --branco: #FFFF  
+}
+
+body{
+  background-color: var(--cinza)
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a{

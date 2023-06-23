@@ -1,0 +1,14 @@
+.skill__card__text{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+.skill__card__text::first-letter{
+  text-transform: uppercase;
+}
+
+.skill__card__text--css{
+  text-transform: uppercase;
+}
+

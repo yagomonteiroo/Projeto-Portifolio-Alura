@@ -1,0 +1,10 @@
+.hobbies__title{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.hobbies__title::first-letter{
+  text-transform: uppercase;
+}

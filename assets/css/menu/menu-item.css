@@ -2,10 +2,6 @@
   text-transform: uppercase;
 }
 
-/* .menu__item::first-letter::not(:last-child){
-  text-transform: uppercase;
-}*/
-
 .menu__item:last-child{
   font-weight: 700;
   text-transform:lowercase; 

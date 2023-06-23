@@ -1,0 +1,9 @@
+.skill__card{
+  background-color: var(--branco);
+  display:flex;
+  flex-direction: column;
+  height: 10.875rem;
+  justify-content: flex-end;
+  padding: 1rem;
+  width: 11rem;
+}

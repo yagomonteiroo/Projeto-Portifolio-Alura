@@ -1,0 +1,23 @@
+.skill__card__img{
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  height:2rem;
+}
+
+.skill__card__img--html{
+  background-image: url("../../imgs/htlm.png");
+}
+.skill__card__img--js{
+  background-image: url("../../imgs/js_icon.png");
+}
+.skill__card__img--node{
+  background-image: url("../../imgs/nodejs_icon.png");
+  background-size: 2.5rem;
+}
+.skill__card__img--react{
+  background-image: url("../../imgs/react_icon.png");
+}
+.skill__card__img--css{
+  background-image: url("../../imgs/css_icon.png");
+  height:2.7rem;
+}

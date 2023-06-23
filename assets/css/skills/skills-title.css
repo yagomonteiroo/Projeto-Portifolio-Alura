@@ -1,0 +1,10 @@
+.skills__title{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.skills__title::first-letter{
+  text-transform: uppercase;
+}

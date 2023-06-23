@@ -1,0 +1,7 @@
+.hobbie__card__text{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hobbie__card__text::first-letter{
+  text-transform: uppercase;
+}

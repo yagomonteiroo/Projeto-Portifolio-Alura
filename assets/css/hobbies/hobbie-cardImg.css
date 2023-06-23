@@ -1,0 +1,26 @@
+.hobbie__card__img{
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  height:2.1rem;
+}
+
+.hobbie__card__img--bike{
+  background-image: url("../../imgs/corrida.png");
+  background-size: 2.2rem;
+  height: 2.3rem;
+}
+.hobbie__card__img--tv{
+  background-image: url("../../imgs/tv_icon.png");
+}
+.hobbie__card__img--couple{
+  background-image: url("../../imgs/couple_icon.png");
+  height: 2.185rem;
+  
+}
+.hobbie__card__img--church{
+  background-image: url("../../imgs/church.png");
+  height: 2.2rem;
+}
+.hobbie__card__img--guitar{
+  background-image: url("../../imgs/guitar_icon.png");
+}
