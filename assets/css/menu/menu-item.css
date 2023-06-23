@@ -1,19 +1,12 @@
-.menu__item{
-}
-
-.menu__item:first-letter{
+.menu__item:not(:last-child)::first-letter{
   text-transform: uppercase;
 }
 
+/* .menu__item::first-letter::not(:last-child){
+  text-transform: uppercase;
+}*/
 
-.menu__link--destaque{
+.menu__item:last-child{
   font-weight: 700;
-  text-transform: lowercase;
+  text-transform:lowercase; 
 }
-
-.menu__link--destaque{
-  font-weight: 700;
-  text-transform: lowercase;
-}
-
-

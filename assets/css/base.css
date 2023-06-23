@@ -2,11 +2,20 @@
   --preto: #464646;
   --azul-claro: #EAF2FD;
   --azul-escuro:#2A7AE4;
-  --branco: #FFFF
-
-  
+  --branco: #FFFF  
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a{
   color: var(--preto);
+}
+
+.container{
+  padding: 0 9.5rem;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1700px){
+  .container{
+    padding: 0 16rem;
+  }
 }
