@@ -2,6 +2,8 @@
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  text-transform: capitalize;
   padding-bottom: 2rem;
+}
+.formacao__titulo::first-letter{
+  text-transform: uppercase;
 }
