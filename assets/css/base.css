@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: var(--cinza)
+  background-color: var(--cinza);
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a{
@@ -15,15 +15,24 @@ h1, h2, h3, h4, h5, h6, p, span, a{
 }
 
 .container{
-  padding-left:9.5rem ;
-  padding-right:9.5rem;
-  width: 100vw;
+  padding: 0 9.5rem;
 }
 
-/* Grandes telas */
-@media screen and (min-width: 1700px){
-  .container{
-    padding-left:13vw;
-    padding-right:13vw;
-  }
+.button{
+  background: var(--azul-escuro);
+  padding: 1rem;
+  text-align: center;
 }
+.button--onlyBorder{
+  border: solid var(--azul-claro);
+  padding: 1rem;
+  text-align: center;
+
+}
+
+/* Telas Grandes */
+@media screen and (min-width: 1550px){
+  .container{
+    padding: 0 4rem;padding: 0 calc((100% - (1440px - 9.5rem))/2);
+  }
+}  
