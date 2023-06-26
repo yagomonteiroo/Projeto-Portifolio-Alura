@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 10.875rem;
   justify-content: flex-end;
+  margin-bottom: 1rem;
   padding: 1rem;
   width: 11rem;
 }
