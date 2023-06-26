@@ -1,0 +1,28 @@
+.formacao__card__img{
+  width: 23rem;
+  position: absolute;
+  top:20%;
+}
+
+.formacao__card__img--comunicacao{
+  content: "";
+  background: url(../../imgs/anhanguera.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 17.875rem;
+  width: 23rem;
+}
+
+
+img.formacao__card__img--anhanguera{
+  width:70%;
+  left:50px;
+  top:50px;
+}
+img.formacao__card__img--descomplica{
+  top: 3.5rem;
+  right: 1.5rem;
+  width: 26rem;
+}

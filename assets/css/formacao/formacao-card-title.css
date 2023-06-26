@@ -1,0 +1,7 @@
+.formacao__card__title{
+  font-size: 1.375rem;
+  font-weight: 700; 
+}
+.formacao__card__title::first-letter{
+  text-transform: uppercase;  
+}

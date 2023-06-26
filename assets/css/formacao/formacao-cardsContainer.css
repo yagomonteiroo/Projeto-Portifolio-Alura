@@ -1,0 +1,5 @@
+.formacao__cardsContainer{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
