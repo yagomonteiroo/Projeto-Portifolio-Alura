@@ -1,4 +1,17 @@
 .sobre__assinatura{
-  background: url("../../imgs/signature\ \(2\).png") no-repeat left /3.25rem; 
-  height: 4.5rem;
+  font-family: 'Sassy Frass', cursive;
+  font-size: 2.5rem;
 }
+
+.sobre__assinatura--nome{
+  letter-spacing: -0.3rem;
+  position: relative;
+}
+
+.sobre__assinatura--sobrenome{
+  letter-spacing: -0.15rem;
+  position: absolute;
+  left: 39px;
+}
+
+
