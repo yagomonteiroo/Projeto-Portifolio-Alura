@@ -1,8 +1,7 @@
 .contato{
   background:var(--azul-claro);
   display: flex;
-  gap: 1rem;
-  justify-content: space-between;
+  gap: 1.62rem;
   padding-top:5.12rem;
   padding-bottom:5.12rem ;
 }

@@ -88,12 +88,16 @@
     <link rel="stylesheet" href="./assets/css/contato/contato-itens.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-img.css">
     <link rel="stylesheet" href="./assets/css/contato/form/contato-form.css">
-    <link rel="stylesheet" href="./assets/css/contato/form/form-labelNome.css">
-    <link rel="stylesheet" href="./assets/css/contato/form/form-inputNome.css">
-    <link rel="stylesheet" href="./assets/css/contato/form/form-labelEmail.css">
-    <link rel="stylesheet" href="./assets/css/contato/form/form-inputEmail.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-display.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-label.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-input.css">
     <link rel="stylesheet" href="./assets/css/contato/form/form-input-assunto.css">
     <link rel="stylesheet" href="./assets/css/contato/form/form-textArea-mensagem.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-button.css">
+
+    <!-- footer -->
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer-text.css">
 
 
 
@@ -324,25 +328,34 @@
             Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
           </p>
           <form action="" class="contato__form">
-            <div>
-              <label for="nome" class="form__label-nome"></label>
-              <input type="text" name="nome"  id="nome" placeholder="Digite seu nome" class="form__input-nome">
+            <div class="form__display">
+              <label for="nome" class="form__label">Nome</label>
+              <input type="text" name="nome"  id="nome" placeholder="Digite seu nome" class="form__input">
             </div>
             
-            <div>
-              <label for="email" class="form__label-email"></label>
-              <input type="email" name="email" id="email" placeholder="ex: contato@provedor.com" class="form__input-email">
+            <div class="form__display">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" name="email" id="email" placeholder="Ex: contato@provedor.com" class="form__input">
             </div>
             
-            <input type="text" name="assunto" id="assunto" placeholder="Assunto" class="form__input__assunto">
-            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" cols="30" rows="10" class="form__textarea-mensagem"></textarea>
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto" class="form__input form__input--assunto">
+
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" cols="30" rows="10" class="form__textarea-mensagem form__input"></textarea>
+
+            <input type="button" value="Enviar mensagem" class="form__button button">
             
           </form>
         </div>
       </section>
-
     </main>
     
+    <footer class="footer">
+      <p class="footer__text"> 
+        Desenvolvido por Yago Monteiro
+        <br>
+        2021
+      </p>
+    </footer>
     
   </body>
 </html>

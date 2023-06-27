@@ -1,0 +1,25 @@
+.form__input{
+  all:unset;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.form__input::placeholder{
+  font-size: 1rem;
+  font-family: Raleway;
+  line-height: 1.25rem;
+  color: var(--cinza-medio)
+}
+.form__input:focus::placeholder{
+  visibility: hidden;
+}
+
+.form__input--assunto{
+  background: var(--preto-branco, #FFF);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 0.5rem 0rem 0.75rem 0.44rem;
+}
+
+

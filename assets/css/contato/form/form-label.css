@@ -1,0 +1,6 @@
+.form__label{
+  color: var(--cinza-medio);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+}

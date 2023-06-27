@@ -1,7 +1,7 @@
 .contato__img{
-  background:url("../../imgs/contact_image.png") ;
+  background:url("../../imgs/contact_image.png") no-repeat center;
+  background-size: cover;
   width: 29rem;
-  height: 37.0625rem;
   flex-shrink: 0;
 
 
