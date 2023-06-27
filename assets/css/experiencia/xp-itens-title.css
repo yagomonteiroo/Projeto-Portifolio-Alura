@@ -1,0 +1,12 @@
+.xp__itens__title{
+  font-size: 1.375rem;
+}
+
+.xp__itens__title::first-letter{
+  text-transform: uppercase;
+}
+
+.xp__itens__title--capitalize{
+  text-transform: capitalize;
+}
+

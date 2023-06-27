@@ -72,13 +72,30 @@
 
     <!-- experiência -->
     <link rel="stylesheet" href="./assets/css/experiencia/xp.css">
+    <link rel="stylesheet" href="./assets/css/experiencia/xp-title.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-img.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-card.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-card-itens.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-itens-title.css">
+    <link rel="stylesheet" href="./assets/css/experiencia/xp-itens-subtitle.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-buttonsContainer.css">
     <link rel="stylesheet" href="./assets/css/experiencia/xp-button.css">
-    
+
+    <!-- contato -->
+    <link rel="stylesheet" href="./assets/css/contato/contato.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-itens.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-img.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/contato-form.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-labelNome.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-inputNome.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-labelEmail.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-inputEmail.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-input-assunto.css">
+    <link rel="stylesheet" href="./assets/css/contato/form/form-textArea-mensagem.css>
+
+
 
 
   </head>
@@ -251,16 +268,17 @@
       </section>
 
       <section class="xp container">
+        <h2 class="xp__title">Últimos projetos</h2>
         <div class="xp__card">
           <img src="./assets/imgs/projeto-decodificador.JPG" alt="Projeto Decodificador de Textos" class="xp__img">
           
           <div class="xp__card__itens">
-            <h3 class="xp__itens__title"></h3>
-            <p class="xp__itens__subtitle"></p>
+            <h3 class="xp__itens__title">decodificador de textos</h3>
+            <p class="xp__itens__subtitle">Challenge Alura Codificador</p>
 
             <div class="xp__buttonsContainer">
-              <a href="https://github.com/yagomonteiroo/Decodificador-Oracle-One" class="xp__button button">repositório</a>
-              <a href="https://yagomonteiroo.github.io/Decodificador-Oracle-One/" class="xp__button button--onlyBorder">demo</a></div>
+              <a href="https://github.com/yagomonteiroo/Decodificador-Oracle-One" target="_blank" class="xp__button button--onlyBorder">repositório</a>
+              <a href="https://yagomonteiroo.github.io/Decodificador-Oracle-One/" target="_blank" class="xp__button button">demo</a></div>
           </div>
 
         </div>
@@ -269,12 +287,12 @@
           <img src="./assets/imgs/projeto-calculadora.JPG" alt="Projeto Calculadora" class="xp__img">
           
           <div class="xp__card__itens">
-            <h3 class="xp__itens__title">calculadora canilla cs</h3>
-            <p class="xp__itens__subtitle">projeto de estudo</p>
+            <h3 class="xp__itens__title">calculadora simples</h3>
+            <p class="xp__itens__subtitle">projeto de estudo em Vanilla Js</p>
 
             <div class="xp__buttonsContainer">
-              <a href="https://github.com/yagomonteiroo/Calculadora-Simples" class="xp__button button">repositório</a>
-              <a href="https://yagomonteiroo.github.io/Calculadora-Simples/" class="xp__button button--onlyBorder">demo</a>
+              <a href="https://github.com/yagomonteiroo/Calculadora-Simples" target="_blank" class="xp__button button--onlyBorder">repositório</a>
+              <a href="https://yagomonteiroo.github.io/Calculadora-Simples/" target="_blank" class="xp__button button">demo</a>
             </div>
 
           </div>
@@ -284,15 +302,42 @@
           <img src="./assets/imgs/projeto-apeperia.JPG" alt="Projeto Apeperia" class="xp__img">
           
           <div class="xp__card__itens">
-            <h3 class="xp__itens__title"></h3>
-            <p class="xp__itens__subtitle"></p>
+            <h3 class="xp__itens__title xp__itens__title--capitalize">website apeperia</h3>
+            <p class="xp__itens__subtitle">projeto de estudo Alura - ONE</p>
 
             <div class="xp__buttonsContainer">
-              <a href="https://github.com/yagomonteiroo/Projeto-Apeperia" class="xp__button button">repositório</a>
-              <a href="https://yagomonteiroo.github.io/Projeto-Apeperia/" class="xp__button button--onlyBorder">demo</a>
+              <a href="https://github.com/yagomonteiroo/Projeto-Apeperia" target="_blank" class="xp__button button--onlyBorder">repositório</a>
+              <a href="https://yagomonteiroo.github.io/Projeto-Apeperia/" target="_blank" class="xp__button button">demo</a>
             </div>
 
           </div>
+        </div>
+      </section>
+
+      <section class="contato container">
+        <div class="contato__img"></div>
+        <div class="contato__itens">
+          <h2 class="contato__titulo">Contato</h2>
+          <p class="contato__sutitulo">
+            Quer entrar em contato comigo?
+            <br>
+            Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+          </p>
+          <form action="" class="contato__form">
+            <div>
+              <label for="nome" class="form__label-nome"></label>
+              <input type="text" name="nome"  id="nome" placeholder="Digite seu nome" class="form__input-nome">
+            </div>
+            
+            <div>
+              <label for="email" class="form__label-email"></label>
+              <input type="email" name="email" id="email" placeholder="ex: contato@provedor.com" class="form__input-email">
+            </div>
+            
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto" class="form__input__assunto">
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" cols="30" rows="10" class="form__textarea-mensagem"></textarea>
+            
+          </form>
         </div>
       </section>
 

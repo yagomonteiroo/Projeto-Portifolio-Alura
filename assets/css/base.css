@@ -19,20 +19,55 @@ h1, h2, h3, h4, h5, h6, p, span, a{
 }
 
 .button{
+  box-sizing: border-box;
+  border: 1px solid var(--azul-escuro);
   background: var(--azul-escuro);
+  color: var(--branco );
+  display: inline-block;
+  font-size: 1rem;
   padding: 1rem;
   text-align: center;
+  text-transform: capitalize;
+  width: 7.25rem;
+  transition: all .5s ease;
 }
+
+.button:hover{
+  background: unset;
+  color: var(--azul-escuro);
+  display: inline-block;
+  transform: scale(1.06);
+}
+
 .button--onlyBorder{
-  border: solid var(--azul-claro);
+  box-sizing: border-box;
+  border: 1px solid var(--azul-escuro);
+  color: var(--azul-escuro);
+  display: inline-block;
+  font-size: 1rem;
   padding: 1rem;
   text-align: center;
+  text-transform: capitalize;
+  width: 7.25rem;
+  transition: all .8s ease;
+}
 
+.button--onlyBorder:hover{
+  border: 1px solid var(--azul-escuro);
+  background: var(--azul-escuro);
+  color: var(--branco );
+  transform: scale(1.1);
+}
+
+.button:active , .button--onlyBorder:active{
+  transform: scale(1);
+  background: var(--azul-claro);
+  color: var(--azul-escuro);
 }
 
 /* Telas Grandes */
-@media screen and (min-width: 1550px){
+@media screen and (min-width: 1440px){
   .container{
-    padding: 0 4rem;padding: 0 calc((100% - (1440px - 9.5rem))/2);
+    padding: 0 calc((100% - (1440px - 9.5rem)) / 2);
   }
 }  

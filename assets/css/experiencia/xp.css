@@ -1,0 +1,7 @@
+.xp{
+  display: flex;
+  gap: 3.34rem;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}

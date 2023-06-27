@@ -1,0 +1,10 @@
+.xp__card{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 1.62rem;
+}
+
+.xp__card:nth-child(2n - 1){
+  flex-direction: row-reverse;
+}

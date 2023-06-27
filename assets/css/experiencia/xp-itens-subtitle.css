@@ -1,0 +1,8 @@
+.xp__itens__subtitle{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.xp__itens__subtitle::first-letter{
+  text-transform: uppercase;
+}
