@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6, p, span, a{
   color: var(--azul-escuro);
   display: inline-block;
   transform: scale(1.06);
+  cursor:pointer;
 }
 
 .button--onlyBorder{
@@ -58,6 +59,7 @@ h1, h2, h3, h4, h5, h6, p, span, a{
   background: var(--azul-escuro);
   color: var(--branco );
   transform: scale(1.1);
+  cursor:pointer;
 }
 
 .button:active , .button--onlyBorder:active{
