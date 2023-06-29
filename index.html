@@ -95,6 +95,9 @@
     <link rel="stylesheet" href="./assets/css/contato/form/form-textArea-mensagem.css">
     <link rel="stylesheet" href="./assets/css/contato/form/form-button.css">
 
+    <!-- btn top -->
+    <link rel="stylesheet" href="./assets/css/btnTop.css">
+
     <!-- footer -->
     <link rel="stylesheet" href="./assets/css/footer/footer.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-text.css">
@@ -105,7 +108,7 @@
   </head>
 
   <body>
-    <header class="cabecalho container">
+    <header  class="cabecalho container">
       <div class="logo">
         <img
           src="./assets/imgs/logo-icon.svg"
@@ -118,24 +121,24 @@
       <nav class="menu">
         <ul class="menu__lista">
           <li class="menu__item">
-            <a href="#" class="menu__link">sobre mim</a>
+            <a href="#sobre" class="menu__link">sobre mim</a>
           </li>
-          <li class="menu__item"><a href="#" class="menu__link">skills</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">hobbies</a></li>
+          <li class="menu__item"><a href="#skills" class="menu__link">skills</a></li>
+          <li class="menu__item"><a href="#hobbies" class="menu__link">hobbies</a></li>
           <li class="menu__item">
-            <a href="#" class="menu__link">formação</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">projetos</a>
+            <a href="#formacao" class="menu__link">formação</a>
           </li>
           <li class="menu__item">
-            <a href="#" class="menu__link">yago.monteiroo@gmail.com</a>
+            <a href="#xp" class="menu__link">projetos</a>
+          </li>
+          <li class="menu__item">
+            <a href="mailto:yago.monteiroo@gmail.com" class="menu__link">yago.monteiroo@gmail.com</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main id="top">
       <section class="apresentacao container">
         <div class="apresentacao__textos">
           <h1 class="apresentacao__titulo">
@@ -162,7 +165,7 @@
         <div class="apresentacao__imagem"></div>
       </section>
   
-      <section class="sobre container">
+      <section id="sobre" class="sobre container">
         <h2 class="sobre__titulo">sobre mim</h2>
         <p class="sobre__texto">
           Meu nome é Yago Monteiro, sou formado em comunicação social com ênfase em publicidade e propaganda, e iniciei recentemente um processo de transição de carreira da área de comunicação para a de tecnologia. Atualmente, curso Análise e Desenvolvimento de Sistemas e estou participando do projeto Oracle ONE na Alura.
@@ -181,7 +184,7 @@
       </section>
   
       <section class="skillsEhobbies container">
-        <section class="skills">
+        <section id="skills" class="skills">
           <h2 class="skills__title">skills</h2>
   
           <div class="skills__cards">
@@ -212,7 +215,7 @@
           </div>
         </section>
   
-        <section class="hobbies">
+        <section id="hobbies" class="hobbies">
           <h2 class="hobbies__title">hobbies</h2>
   
           <div class="hobbies__cards">
@@ -246,7 +249,7 @@
   
       </section>
   
-      <section class="formacao container">
+      <section id="formacao" class="formacao container">
         <h2 class="formacao__titulo">formação acadêmica</h2>
   
         <div class="formacao__cardsContainer">
@@ -271,7 +274,7 @@
         </div>
       </section>
 
-      <section class="xp container">
+      <section id="xp" class="xp container">
         <h2 class="xp__title">Últimos projetos</h2>
         <div class="xp__card">
           <img src="./assets/imgs/projeto-decodificador.JPG" alt="Projeto Decodificador de Textos" class="xp__img">
@@ -318,7 +321,7 @@
         </div>
       </section>
 
-      <section class="contato container">
+      <section id="contato" class="contato container">
         <div class="contato__img"></div>
         <div class="contato__itens">
           <h2 class="contato__titulo">Contato</h2>
@@ -347,6 +350,8 @@
           </form>
         </div>
       </section>
+
+      <a href="#top" class="btn-top"><spam class="btn-top--icon">↑</spam>topo</a>
     </main>
     
     <footer class="footer">

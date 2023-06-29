@@ -1,0 +1,42 @@
+.btn-top{
+  background: transparent;
+  border:1px solid var(--azul-escuro);
+  color: var(--azul-escuro);
+  border-radius:50%;
+  transition: .7s ease;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 5vh;
+  right: 3vw;
+
+  
+  font-size:.8rem;
+  height: 50px;
+  width: 50px;
+  min-width: unset;
+  
+}
+
+.btn-top:hover{
+  background-color: var(--azul-escuro);
+  border: 1px solid var(--azul-escuro);;
+  color: white;
+  transform: scale(1.15);
+  cursor:pointer;
+}
+
+.btn-top:active{
+  transform: scale(1);
+  background: var(--azul-claro);
+  color: var(--azul-escuro);
+}
+
+.btn-top--icon{
+  font-size:20px;
+  display: block;
+}
+

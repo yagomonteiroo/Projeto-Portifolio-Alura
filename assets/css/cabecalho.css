@@ -1,6 +1,11 @@
 .cabecalho{
+  background: var(--cinza);
   display: flex;
   justify-content: space-between;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 999;
 }
