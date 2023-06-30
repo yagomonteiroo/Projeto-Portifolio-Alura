@@ -6,3 +6,18 @@
   font-weight: 700;
   text-transform:lowercase; 
 }
+
+/* desabilitar menu em pequenas telas */
+@media screen and (max-width: 1072px) {
+  .menu__item:not(:last-child){
+    display:none;
+  }
+}
+
+/* celular - mundar email */
+@media screen and (max-width: 767px){
+  .menu__item:nth-child(n){
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}

@@ -9,3 +9,12 @@
   width: 100%;
   z-index: 999;
 }
+/* tablet */
+@media screen and (max-width:1023px) {
+  .cabecalho{
+    position: unset;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+

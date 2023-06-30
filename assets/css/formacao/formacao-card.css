@@ -17,3 +17,17 @@
   height: 17.875rem;
   width: 23rem;
 }
+
+@media screen and (max-width: 1062px) {
+
+  .formacao__card{
+    width: 14rem;
+  }
+  .formacao__card::before{
+    content: "";
+    background: var(--branco);
+    display: block;
+    height: 7.375rem;
+    width: 14rem;
+  }
+}

@@ -17,15 +17,12 @@ html{
 
 body{
   background-color: var(--cinza);
+  width: 100%;
 }
 
 
 h1, h2, h3, h4, h5, h6, p, span, a{
   color: var(--preto);
-}
-
-main{
-  padding-top: 4rem;
 }
 
 .container{
@@ -87,3 +84,17 @@ main{
     padding: 0 calc((100% - (1440px - 16.5rem)) / 2);
   }
 }  
+
+/* tablets e Telas pequenas*/
+@media screen and (max-width: 1023px){
+  .container{
+    padding:0 3rem;
+  }
+}
+
+/* celular */
+@media screen and (max-width: 767px){
+  .container{
+    padding:0 1rem;
+  }
+}

@@ -1,18 +1,8 @@
 .formacao__card__img{
+  box-sizing: border-box;
   width: 23rem;
   position: absolute;
   top:20%;
-}
-
-.formacao__card__img--comunicacao{
-  content: "";
-  background: url(../../imgs/anhanguera.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  height: 17.875rem;
-  width: 23rem;
 }
 
 
@@ -22,7 +12,25 @@ img.formacao__card__img--anhanguera{
   top:50px;
 }
 img.formacao__card__img--descomplica{
-  top: 3.5rem;
-  right: 1.5rem;
-  width: 26rem;
+  top: 5rem;
+  left: 2.5rem;
+  width: 70%;
+}
+
+@media screen and (max-width: 1062px) {
+  .formacao__card__img{
+    width: 14rem;
+    top:7%
+  }
+
+  img.formacao__card__img--anhanguera{
+    width:50%;
+    left:25%;
+    top:12%;
+  }
+  img.formacao__card__img--descomplica{
+    top: 15%;
+    left: 20%;
+    width: 60%;
+  }
 }

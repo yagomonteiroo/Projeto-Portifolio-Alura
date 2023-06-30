@@ -10,3 +10,8 @@
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 1023px){
+  .xp__itens__title{
+    font-size: 1rem;
+  }
+}

@@ -1,10 +1,30 @@
 .skill__card{
   background-color: var(--branco);
+  box-sizing: border-box;
   display:flex;
   flex-direction: column;
   height: 10.875rem;
   justify-content: flex-end;
-  margin-bottom: 1rem;
   padding: 1rem;
   width: 11rem;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .skill__card{
+    box-sizing:border-box;
+    height: 7.375rem;
+    width: 14rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .skill__card{
+    margin-bottom: 0.5rem;
+    height: 7.375rem;
+    width: 9.75rem
+  }  
+}
+
+
+

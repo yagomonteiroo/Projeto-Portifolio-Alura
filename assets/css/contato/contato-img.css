@@ -3,6 +3,10 @@
   background-size: cover;
   width: 29rem;
   flex-shrink: 0;
+}
 
-
+@media screen and (max-width: 1023px) {
+  .contato__img{
+    display:none;
+  }
 }

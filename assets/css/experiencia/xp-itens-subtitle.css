@@ -6,3 +6,9 @@
 .xp__itens__subtitle::first-letter{
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px){
+  .xp__itens__subtitle{
+    font-size: 0.875rem;
+  }
+}

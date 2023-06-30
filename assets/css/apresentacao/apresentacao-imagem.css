@@ -8,3 +8,14 @@
   width: 23rem;
   height: 23rem;
 }
+
+@media screen and (max-width: 1023px) {
+  .apresentacao__imagem{
+    background-size:9.125rem;
+    width: 9.125rem;
+    height: 9.125rem;
+  }
+}
+
+
+

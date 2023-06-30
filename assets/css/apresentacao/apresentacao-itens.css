@@ -3,3 +3,11 @@
   justify-content: space-between;
   width: 24.56rem;
 }
+
+@media screen and (max-width: 767px){
+  .apresentacao__itens {
+    width: 100%;
+  }
+
+}
+

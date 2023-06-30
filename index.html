@@ -145,7 +145,7 @@
             Olá, meu nome é Yago Monteiro e eu construo páginas web
           </h1>
           <p class="apresentacao__subtitulo">
-            Eu sou formando em análise e desenvolvimento de sistemas e atualmente estou participando no projeto Oracle Next education - ONE, na Alura.
+            Formando em análise e desenvolvimento de sistemas e, atualmente, participando do projeto Oracle Next education - ONE, na Alura.
           </p>
           <div class="apresentacao__itens">
             <a href="https://github.com/yagomonteiroo" target="_blank" class="apresentacao__links"
@@ -267,7 +267,7 @@
   
           <div class="formacao__card">
             <img src="./assets/imgs/descomplica.png" alt="Logo Faculdade Descomplica" class="formacao__card__img formacao__card__img--descomplica">
-            <figcaption class="formacao__card__title">análise e desenvolvimento de sistemas</figcaption>
+            <figcaption class="formacao__card__title">análise e dev. de sistemas</figcaption>
             <p class="formacao__card__descricao">em andamento - Faculdade Descomplica</p>
           </div>
   
@@ -333,19 +333,19 @@
           <form action="" class="contato__form">
             <div class="form__display">
               <label for="nome" class="form__label">Nome</label>
-              <input type="text" name="nome"  id="nome" placeholder="Digite seu nome" class="form__input">
+              <input type="text" name="nome"  id="nome" placeholder="Digite seu nome" class="form__input" minlength="2" maxlength="50" required>
             </div>
             
             <div class="form__display">
               <label for="email" class="form__label">Email</label>
-              <input type="email" name="email" id="email" placeholder="Ex: contato@provedor.com" class="form__input">
+              <input type="email" name="email" id="email" placeholder="Ex: contato@provedor.com" class="form__input" minlength="7" maxlength="50" required>
             </div>
             
-            <input type="text" name="assunto" id="assunto" placeholder="Assunto" class="form__input form__input--assunto">
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto" class="form__input form__input--assunto" minlength="2" maxlength="50" required>
 
-            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" cols="30" rows="10" class="form__textarea-mensagem form__input"></textarea>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" cols="30" rows="10" class="form__textarea-mensagem form__input" minlength="5" maxlength="300" required></textarea>
 
-            <input type="button" value="Enviar mensagem" class="form__button button">
+            <input type="submit" value="Enviar mensagem" class="form__button button">
             
           </form>
         </div>

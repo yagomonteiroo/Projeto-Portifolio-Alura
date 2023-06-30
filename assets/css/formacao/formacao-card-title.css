@@ -5,3 +5,9 @@
 .formacao__card__title::first-letter{
   text-transform: uppercase;  
 }
+
+@media screen and (max-width: 1023px){
+  .formacao__card__title{
+    font-size: 1rem;
+  }
+}

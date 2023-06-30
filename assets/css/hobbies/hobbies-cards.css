@@ -2,5 +2,29 @@
   display:flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  height: 100%;
+  gap:2rem;
+}
+
+@media screen and (max-width: 1023px){
+  .hobbies__cards {
+    justify-content: flex-start;
+    gap: calc((100% - (3 * 224px)) / 2);
+  }
+
+}
+
+@media screen and (max-width:780px) {
+  .hobbies__cards{
+    gap: calc((100% - (156px * 4)) / 3);
+  }  
+}
+@media screen and (max-width:665px) {
+  .hobbies__cards{
+    gap: calc((100% - (156px * 3))/ 2);
+  }  
+}
+@media screen and (max-width:515px) {
+  .hobbies__cards{
+    gap: calc((100% - (156px * 2)));
+  }  
 }
