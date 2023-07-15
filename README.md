@@ -42,7 +42,7 @@ Principais conceitos e ferramentas:
 -   Efetue um clone deste repositório através dos seguintes passos:
     -   Vá até a sua pasta ou local desejável para efetuar o download do repositório e clique com o botão esquerdo do mouse. Selecione o terminal de sua preferência (Recomendado: Git Bash) e executar o código abaixo:
 	    - ```gitbash
-	    	   git clone https://github.com/yagomonteiroo/Projeto-Portifolio-Alura.git  
+	    	   git clone https://github.com/yagomonteiroo/portifolio-yago-monteiro.git  
 ## Autor
 
 **Desenvolvido por : Yago Monteiro**<br>
