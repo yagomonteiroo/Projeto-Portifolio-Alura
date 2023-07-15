@@ -3,7 +3,7 @@
 Projeto de estudo desenvolvido como resposta ao Alura Challenge, desafio proposto no curso de desenvolvimento web do programa ONE (Oracle Next Education).  Durante a realização do projeto foram disponibilizados um protótipo no figma e um modelo kanban no trello para utilizar como ferramenta de gerenciamento do desenvolvimento do projeto.
 
 **Link para vizualizar o  projeto:**
-[https://yagomonteiroo.github.io/Projeto-Portifolio-Alura](https://yagomonteiroo.github.io/Projeto-Portifolio-Alura/)          
+[https://yagomonteiroo.github.io/portifolio-yago-monteiro/](https://yagomonteiroo.github.io/portifolio-yago-monteiro)          
                     
 ## ⚙️Pré-requisitos
 
